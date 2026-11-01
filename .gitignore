@@ -1,0 +1,11 @@
+# Generated demo data. Rebuild it with scripts/run_pipeline.py --reset.
+data/
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+*.log

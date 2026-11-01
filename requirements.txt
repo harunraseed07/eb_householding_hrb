@@ -1,0 +1,12 @@
+# Engine plus app. Deliberately short: this POC has no record-linkage library,
+# no graph library and no ML framework. Everything is pandas and the standard
+# library, which is what lets the same code run on a laptop and on Databricks.
+
+pandas>=2.0
+pyarrow>=14.0
+streamlit>=1.40,<2
+plotly>=5.20
+
+# Needed only when the app runs on Databricks against a SQL Warehouse.
+databricks-sql-connector>=3.0,<5
+databricks-sdk>=0.38,<1

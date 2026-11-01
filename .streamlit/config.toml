@@ -1,0 +1,15 @@
+[theme]
+# Eastern Bank palette: Midnight Blue, Cerulean, Blaze Orange.
+primaryColor = "#009CDE"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#EEF4F9"
+textColor = "#13263B"
+font = "sans serif"
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
